@@ -35,8 +35,9 @@ public class PortalServiceTest {
 	public void getUptime() {
 
 		// configure mocks
+		Date portalStartTime = new Date();
 		PowerMockito.mockStatic(PortalUtil.class);
-		Mockito.when(PortalUtil.getUptime()).thenReturn(new Date());
+		Mockito.when(PortalUtil.getUptime()).thenReturn(portalStartTime);
 
 		// execute method
 		long uptime = portalService.getUptime();
