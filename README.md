@@ -54,6 +54,6 @@ Default settings are Liferay EE 6.1.20, Java 1.6, Portlet 2.0, and Spring 3.2.  
 Licence
 -------
 
-Copyright 2013 Permeance Technologies
+Copyright 2013 Red Barn Consulting
 
 Licenced under the LGPL Licence, Version 3.0: http://www.gnu.org/licenses/lgpl.html
