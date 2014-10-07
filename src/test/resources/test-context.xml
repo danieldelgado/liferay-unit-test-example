@@ -10,6 +10,6 @@
         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 	<!-- Autodetect annotated controllers -->
-	<context:component-scan base-package="au.com.permeance.liferay.spring.mvc.portlet" />
+	<context:component-scan base-package="au.com.redbarn.liferay.spring.mvc.portlet" />
 
 </beans>
